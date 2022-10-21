@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    min-height: 80vh;
+    display: grid;
+    place-content: center;
+
+}
+.container {
+    background-color: hsl(213, 19%, 18%);
+    max-width: 22rem;
+    min-height: 25rem;
+    margin-top: 30%;
+    border-radius: 15px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.star {
+    padding-top: 1.1rem;
+    padding-left: 0.9rem;
+    color: darkorange;
+
+}
+.icon {
+    margin-bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: hsl(215, 18%, 26%);
+}
+.first-line {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 550;
+}
+
+.middle-text {
+    font-family: 'Overpass', sans-serif;
+    opacity: 40%;
+}
+
+.rating {
+    margin-top: 1.5rem;
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+}
+
+.rating-but {
+    margin-left: 1rem;
+}
+
+.btn {
+    background-color: hsl(215, 18%, 26%);
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+.submit {
+    margin-top: 1.5rem;
+}
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+    width: 95%;
+    height: 3rem;
+    border-radius: 25px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    color: white;
+    box-shadow: 1px hsl(213, 19%, 18%);
+    border: none;
+}
+.submit-btn:hover {
+    background-color: white;
+    color: darkorange;
+}
+
+
+/* page two */
+.thank-you{
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+.selected-rat{
+    color: darkorange;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(215, 18%, 26%);
+    border-radius: 25px;
+    width: 13rem;
+    height: 2rem;
+    padding-top: 5px;
+    margin-left: 3.4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.greeting{
+    font-family: 'Overpass', sans-serif;
+    font-size:25px;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+.last-para{
+    font-family: 'Overpass', sans-serif;  
+    text-align: center;
+    opacity: 40%;
+}
+#rate-again{
+    margin-top: -0.6rem;
+}
